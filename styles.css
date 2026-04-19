@@ -51,15 +51,17 @@ nav a:hover {
 .directions a {
     color: blue;
     text-decoration: none;
+    font-weight: bold;
     font-size: 14px;
     padding: 6px 10px;
     border-radius: 4px;
     background: white;
-    border: 1px solid #b5c9dd;
+    border: 2px solid #b5c9dd;
 }
 
 .directions a:hover {
     background: #e8f2ff;
+    text-decoration: underline;
 }
 
 .site-title {
