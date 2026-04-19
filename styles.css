@@ -187,10 +187,5 @@ section {
     .external-links div {
         max-width: none;
     }
-
-    /* Default offset for all sections */
-section {
-    scroll-margin-top: 120px; /* good starting point */
-}
 }
 
