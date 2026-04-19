@@ -189,7 +189,7 @@ section {
     }
 
     section {
-    scroll-margin-top: 40px; /* good starting point */
+    scroll-margin-top: 0px; /* good starting point */
     }
 }
 
