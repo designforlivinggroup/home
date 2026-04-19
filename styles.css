@@ -146,10 +146,12 @@ h3 {
 
 /* External Links*/
 .external-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 30em;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width:30em;
+    background: #f5f7fa; /* very light grey */
+    border-radius: 6px;
+    border: 1px solid #d3d7dc;
 }
 
 .external-item {
