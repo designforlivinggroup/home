@@ -8,6 +8,7 @@ body {
 
 .site-footer {
     text-align: center;
+    font-style: italic;
     font-size: 0.85rem;
     color: #555;
     padding: 1em 0;
@@ -46,6 +47,7 @@ nav a:hover {
 }
 
 .site-title {
+    font-style: italic;
     width: 100%;
     text-align: center;
     line-height: 10px;
@@ -195,6 +197,10 @@ section {
     scroll-margin-top: 90px;
 }
 
+#meeting-materials {
+    scroll-margin-top: 90px;
+}
+
 #links {
     scroll-margin-top: 90px;
 }
@@ -210,8 +216,4 @@ section {
         max-width: none;
     }
 }
-
-
-
-
 
