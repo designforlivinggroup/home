@@ -187,5 +187,9 @@ section {
     .external-links div {
         max-width: none;
     }
+
+    section {
+    scroll-margin-top: -20px; /* good starting point */
+    }
 }
 
