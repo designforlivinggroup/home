@@ -78,6 +78,11 @@ h3 {
     padding: 0;
 }
 
+h4 {
+   margin: 0;
+   padding: 0;
+}
+
 .nav-row {
     width: 100%;
     display: flex;
