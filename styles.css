@@ -177,31 +177,6 @@ section {
     scroll-margin-top: 90px; /* good starting point */
 }
 
-/* Individual fine‑tuning (modify as needed) */
-#address {
-    scroll-margin-top: 90px;
-}
-
-#meetings {
-    scroll-margin-top: 90px;
-}
-
-#service {
-    scroll-margin-top: 90px;
-}
-
-#about {
-    scroll-margin-top: 90px;
-}
-
-#meeting-materials {
-    scroll-margin-top: 90px;
-}
-
-#external-links {
-    scroll-margin-top: 90px;
-}
-
 @media (max-width: 700px) {
     /* Service Positions: remove max-width only */
     .service-list div {
@@ -212,5 +187,10 @@ section {
     .external-links div {
         max-width: none;
     }
+
+    /* Default offset for all sections */
+section {
+    scroll-margin-top: 70px; /* good starting point */
+}
 }
 
