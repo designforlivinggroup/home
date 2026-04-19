@@ -35,15 +35,17 @@ nav {
 nav a {
     color: blue;
     text-decoration: none;
+    font-weight: bold;
     font-size: 14px;
     padding: 6px 10px;
     border-radius: 4px;
     background: white;
-    border: 1px solid #b5c9dd;
+    border: 2px solid #b5c9dd;
 }
 
 nav a:hover {
     background: #e8f2ff;
+    text-decoration: underline;
 }
 
 .site-title {
@@ -101,8 +103,7 @@ h3 {
 .meeting-table {
     border-collapse: collapse;
     background: white;
-    border: 1px solid #b5c9dd; /* this creates the left + right + top + bottom border */
-    border-radius: 6px;
+    border: 5px solid #cfe6ffb0; /* this creates the left + right + top + bottom border */
     overflow: hidden;
 }
 
@@ -110,21 +111,17 @@ h3 {
     background: #cfe6ff; /* light blue */
     color: black;
     padding: 10px;
-    border-bottom: 1px solid #b5c9dd;
+    border-bottom: 5px solid #cfe6ffb0;
     text-align: left;
 }
 
 .meeting-table td {
     padding: 10px;
-    border-bottom: 1px solid #e0e4e8;
+    border-bottom: 5px solid #cfe6ffb0;
 }
 
 .meeting-table tr:nth-child(even) {
     background: #f5f7fa; /* light grey */
-}
-
-.meeting-table tr:last-child td {
-    border-bottom: none;
 }
 
 /* Service Positions */
@@ -145,18 +142,11 @@ h3 {
 }
 
 /* External Links*/
-.external-links {
+.external-links-list div {
     margin-bottom: 10px;
     padding: 10px;
     max-width:30em;
     background: #f5f7fa; /* very light grey */
-    border-radius: 6px;
-    border: 1px solid #d3d7dc;
-}
-
-.external-item {
-    padding: 10px;
-    background: #f5f7fa; /* same very light grey */
     border-radius: 6px;
     border: 1px solid #d3d7dc;
 }
@@ -203,7 +193,7 @@ section {
     scroll-margin-top: 90px;
 }
 
-#links {
+#external-links {
     scroll-margin-top: 90px;
 }
 
@@ -214,7 +204,7 @@ section {
     }
 
     /* External Links: remove max-width only */
-    .external-links {
+    .external-links div {
         max-width: none;
     }
 }
