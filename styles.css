@@ -189,8 +189,7 @@ section {
     }
 
     section {
-        padding-top: 20px;
-        scroll-margin-top: 0px; /* good starting point */
+        scroll-margin-top: -20px; /* good starting point */
     }
 }
 
