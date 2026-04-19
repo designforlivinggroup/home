@@ -101,7 +101,7 @@ h3 {
 .meeting-table {
     border-collapse: collapse;
     background: white;
-    border: 1px solid #d3d7dc;
+    border: 1px solid #b5c9dd; /* this creates the left + right + top + bottom border */
     border-radius: 6px;
     overflow: hidden;
 }
