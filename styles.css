@@ -99,6 +99,13 @@ h4 {
    padding: 0;
 }
 
+.float-left {
+  float: left;
+  margin: 1rem; /* space between text and image */
+  width: 4rem; /* optional */
+}
+
+
 .nav-row {
     width: 100%;
     display: flex;
@@ -207,4 +214,3 @@ section {
         scroll-padding-top: 60px; /* adjust until perfect */
     }
 }
-
